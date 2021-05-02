@@ -1,0 +1,18 @@
+[package]
+name = "neo-musix"
+version = "0.1.0"
+authors = ["= <hjalte.nannestad@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = { version = "0.11", features = ["persistence"] }
+cpal = "0.13"
+serde = { version = "1.0.125", features = ["derive"] }
+ron = "0.6.4"
+log = "0.4.14"
+simple_logger = "1.11.0"
+ringbuf = "0.2.4"
+crossbeam = "0.8.0"
+anyhow = "1.0.40"
